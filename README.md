@@ -49,3 +49,11 @@ You will notice that with a higher number of iterations, the matchin "overshoots
 
 # Optional
 Draw include a visualization for the point pairs and visualize the decreasing mean square error. 
+
+
+
+
+
+# SLAM on the Robot
+If you finished the above implementation, grab yourself a turtlebot and try to run hector slam on it. Here you find a description with more details
+https://emanual.robotis.com/docs/en/platform/turtlebot3/slam/
