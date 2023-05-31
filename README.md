@@ -22,17 +22,17 @@ $$
 Calculate the change in orientation. 
 
 $$
-\phi = \arctan \left( \dfrac{\sum }{ \sum } \right)
+\phi = \arctan \left( \dfrac{\sum y_{m,i}' x_{d,i}' - x_{m,i}'y_{d,i}' }{ \sum x_{m,i}'x_{d,i}' + y_{m,i}'y_{d,i}'} \right)
 $$
 
 
 # Task 4 
 Calculate the change in translation. 
-
+t = c_m - R(\phi)c_d
 
 # Task 5
-Apply the transformation to the scene
-
+Apply the transformation to the scene, either based on translation $t$ and Rotation $R$ separately, or alternatively, based on homegeneous coordinates: 
+p' = T(\phi, t)p
 
 # Task 6
 You will notice that with a higher number of iterations, the matchin "overshoots" a good solution. Fix this by implementing an additional filter, which excludes point pairs, having a high distance. The basic idea is that you reduce a threshold to aquire point pairs over the iterations. 
