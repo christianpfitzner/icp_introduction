@@ -28,12 +28,14 @@ $$
 
 # Task 4 
 Calculate the change in translation. 
+
 $$
 t = c_m - R(\phi)c_d
 $$
 
 # Task 5
 Apply the transformation to the scene, either based on translation $t$ and Rotation $R$ separately, or alternatively, based on homegeneous coordinates: 
+
 $$
 p' = T(\phi, t)p
 $$
