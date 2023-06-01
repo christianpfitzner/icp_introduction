@@ -10,7 +10,7 @@ Calculate the centroids of the two datasets for model and scene.
 
 
 $$
-c_d = \sum_{i=1}^N d_i  \quad c_m = \sum_{i=1}^N m_i
+c_d = \dfrac{1}{N} \sum_{i=1}^N d_i  \quad c_m = \dfrac{1}{N} \sum_{i=1}^N m_i
 $$
 
 # Task 2
