@@ -30,14 +30,14 @@ for i=1:iter
 	% Aufmultiplizieren der iterativen Transformationen
 
 
-	figure(1, 'Name', 'Model/Scene registration');
-	plot(model(:,1), model(:,2), "xg",
-	        scene(:,1),scene(:,2),"*r",
-	        scene_tmp(:,1), scene_tmp(:,2),"xb");
+	figure(1);
+	plot(model(:,1), model(:,2), 'gx', ...
+	        scene(:,1),scene(:,2),'rx', ...
+	        scene_tmp(:,1), scene_tmp(:,2), 'bx');
 	refresh
 	
 	%pause
 
 end
 
-end;
+end

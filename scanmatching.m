@@ -1,4 +1,6 @@
 clear all;
+close all; 
+
 
 scan1 = dlmread('scan1.txt', ' ');
 scan2 = dlmread('scan2.txt', ' ');
