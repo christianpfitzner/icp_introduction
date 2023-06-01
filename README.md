@@ -5,9 +5,12 @@ This example illustrates the implementation of the icp algorithm within octave /
 # Task 1
 Calculate the centroids of the two datasets for model and scene. 
 
+![image](https://github.com/christianpfitzner/icp_introduction/assets/20952014/ee4bc5dc-900b-4309-b321-c822733f320e)
+
+
 
 $$
-c_d = \sum_{i=1}^N d_i  \quad c_m = \sum_{i=1}^N m_i
+c_d = \dfrac{1}{N} \sum_{i=1}^N d_i  \quad c_m = \dfrac{1}{N} \sum_{i=1}^N m_i
 $$
 
 # Task 2
@@ -42,3 +45,15 @@ $$
 
 # Task 6
 You will notice that with a higher number of iterations, the matchin "overshoots" a good solution. Fix this by implementing an additional filter, which excludes point pairs, having a high distance. The basic idea is that you reduce a threshold to aquire point pairs over the iterations. 
+
+
+# Optional
+Draw include a visualization for the point pairs and visualize the decreasing mean square error. 
+
+
+
+
+
+# SLAM on the Robot
+If you finished the above implementation, grab yourself a turtlebot and try to run hector slam on it. Here you find a description with more details
+https://emanual.robotis.com/docs/en/platform/turtlebot3/slam/
